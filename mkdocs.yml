@@ -6,4 +6,12 @@ nav:
   - Lecture 3: SS2026/Lecture_3/Lecture_3.md
   - Lecture 4: SS2026/Lecture_4/Lecture_4.md
   - Homeworks: SS2026/Homeworks/Trivia.md
-# theme: readthedocs
+theme:
+  name: mkdocs
+  analytics:
+    gtag: G-ABC123
+  shortcuts:
+    help: 191    # ?
+    next: 78     # n
+    previous: 80 # p
+    search: 83   # s

@@ -1,4 +1,4 @@
-site_name: This is a new name, now changed, for another semestrer
+site_name: This is a new name, now changed, for another semestrer....
 nav:
   - Home: index.md
   - About: about.md
@@ -6,3 +6,5 @@ nav:
   - Lecture 2: SS2026/Lecture_2/Lecture_2.md
   - Homeworks: SS2026/Homeworks/Trivia.md
 theme: readthedocs
+extra_css:
+  - stylesheets/extra.css

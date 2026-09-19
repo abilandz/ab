@@ -1,0 +1,8 @@
+site_name: This is a new name, for another semestrer
+nav:
+  - Home: index.md
+  - About: about.md
+  - Lecture 1: SS2026/Lecture_1/Trivia.md
+  - Lecture 2: SS2026/Lecture_2/Lecture_2.md
+  - Homeworks: SS2026/Homeworks/Trivia.md
+theme: readthedocs

@@ -1,6 +1,4 @@
 .wy-nav-content {
-    max-width: none;          /* removes the width limit completely */
-    /* or use a specific value if you prefer, e.g.:
-    max-width: 1200px;
-    */
+    max-width: none;
+    /* max-width: 1200px; */
 }

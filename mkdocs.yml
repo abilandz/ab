@@ -1,4 +1,4 @@
-site_name: This is a new name, is it really?
+site_name: This is a new name, is it really??
 nav:
   - Home: index.md
   - Lecture 1: SS2026/Lecture_1/Trivia.md
@@ -15,3 +15,5 @@ theme:
     next: 78     # n
     previous: 80 # p
     search: 83   # s
+ analytics:
+    gtag: G-ABC123

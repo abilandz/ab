@@ -1,0 +1,53 @@
+.wy-nav-content {
+    max-width: none;
+    /* max-width: 1200px; */
+}
+
+/* Narrow the sidebar (default is ~300px) */
+/* 
+.wy-nav-side {
+    width: 250px;
+}
+*/ 
+
+/* Adjust the content area so it shifts correctly, must be the same value as above */
+/*
+.wy-nav-content-wrap {
+    margin-left: 250px; 
+}
+*/
+
+/* Also update the mobile shift behavior */
+/*
+.wy-nav-side.shift {
+    width: 250px;
+}
+*/
+
+/* 1. Main sidebar background */
+.wy-nav-side {
+    background: #2c3e50;          /* Change this color */
+}
+
+/* 2. Search box area at the top of the sidebar */
+.wy-side-nav-search {
+    background: #1a252f;          /* Usually a slightly darker shade */
+}
+
+/* 3. Hover color on navigation links */
+.wy-menu-vertical a:hover {
+    background-color: #34495e;
+    color: #ffffff;
+}
+
+/* 4. Currently active / selected page */
+.wy-menu-vertical li.current > a,
+.wy-menu-vertical li.current a:hover {
+    background-color: #1abc9c;    /* Accent color for current page */
+    color: #ffffff;
+}
+
+/* 5. Text color of normal links */
+.wy-menu-vertical a {
+    color: #ecf0f1;
+}

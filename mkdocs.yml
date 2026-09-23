@@ -8,7 +8,8 @@ nav:
   - Homeworks: SS2026/Homeworks/Trivia.md
 theme:
 #  name: mkdocs
-  name: material
+#  name: material
+  name: readthedocs
   analytics:
     gtag: G-ABC123
   shortcuts:

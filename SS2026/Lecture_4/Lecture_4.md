@@ -20,9 +20,9 @@ Now that we have seen how to implement in **Bash** both scripts and functions, w
 
 1. figure (in 4 standard formats .pdf,.eps, .png and .C) holding the 3 histograms plotted side-by-side, with distributions of transverse momentum for pions, kaons and protons, respectively (to increase statistics, take that particles and antiparticles are the same). Transverse momentum is the Lorentz invariant quantity defined as: 
 
- $$
-  p_T \equiv \sqrt{p_x^2 + p_y^2}
- $$
+$$
+p_T \equiv \sqrt{p_x^2 + p_y^2}
+$$
 
 
 # Math Examples

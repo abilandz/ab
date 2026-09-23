@@ -363,6 +363,12 @@ Finally, we clarify that the setting for each permission can be represented alte
 
 ![](../Common_Figures/permissions.png)
 
+
+| permission |  r   |  w   |  x   |  -   |
+| :--------- | :--: | :--: | :--: | :--: |
+| **value**  |  4   |  2   |  1   |  0   |
+
+
 When these values are added together, the sum is used to set specific permissions.
 
 For example, if you want to set only 'read' and 'write' permissions, you need to use a value 6, because from the above table, it follows immediately: 4 ('read') + 2 ('write') = 6. If you want to remove all of 'read', 'write' and 'execute' permissions, you need to specify 0.
@@ -370,6 +376,18 @@ For example, if you want to set only 'read' and 'write' permissions, you need to
 For convenience, all possibilities are documented in the table:
 
 ![](../Common_Figures/permissionsAll.png)
+
+
+| value |       permission        | standard syntax |
+| :---: | :---------------------: | :-------------: |
+|   7   | read, write and execute |       rwx       |
+|   6   |     read and write      |       rw-       |
+|   5   |    read and execute     |       r-x       |
+|   4   |        read only        |       r--       |
+|   3   |    write and execute    |       -wx       |
+|   2   |       write only        |       -w-       |
+|   1   |      execute only       |       --x       |
+|   0   |          none           |       ---       |
 
 **Example:** Make a new file with default permissions, then remove all permissions, and set the permission pattern to `-rwx--xr--` , by using both syntaxes described above. With the first syntax, we would have:
 

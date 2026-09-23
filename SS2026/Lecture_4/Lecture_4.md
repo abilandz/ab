@@ -18,6 +18,32 @@
 
 Now that we have seen how to implement in **Bash** both scripts and functions, we can briefly discuss their similarities, differences, and typical use cases. First, let us start with the execution details of scripts. In general, we run any **Bash** script either by 'sourcing' or by 'executing' that script.
 
+1. figure (in 4 standard formats .pdf,.eps, .png and .C) holding the 3 histograms plotted side-by-side, with distributions of transverse momentum for pions, kaons and protons, respectively (to increase statistics, take that particles and antiparticles are the same). Transverse momentum is the Lorentz invariant quantity defined as: 
+
+ $$
+  p_T \equiv \sqrt{p_x^2 + p_y^2}
+ $$
+
+
+# Math Examples
+
+Inline: The quadratic formula is \( x = \frac{-b \pm \sqrt{b^2-4ac}}{2a} \).
+
+Also works with dollar signs (thanks to arithmatex): $E = mc^2$.
+
+Display equation:
+
+$$
+\int_{-\infty}^{\infty} e^{-x^2}\, dx = \sqrt{\pi}
+$$
+
+Or with brackets:
+
+\[
+\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
+\]
+
+
 The first case corresponds to the following syntax:
 
 ```bash

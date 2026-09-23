@@ -15,3 +15,16 @@ theme:
     next: 78     # n
     previous: 80 # p
     search: 83   # s
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+# Optional but useful
+plugins:
+  - search
+

@@ -3,5 +3,5 @@
 
 title: My Project
 description: Project documentation
-theme: minima 
+# theme: minima 
 show_downloads: false

@@ -6,11 +6,11 @@ def on_config(config):
 
     # Example: only load this CSS when using the "Material" theme"
     if theme_name == "material":
-       # config.extra_css.append("stylesheets/material/bootstrap-like-tables.css")
-       config.extra_css.append("stylesheets/material/native-markdown-tables.css")
+       config.extra_css.append("stylesheets/material/bootstrap-like-tables.css")
+       #config.extra_css.append("stylesheets/material/native-markdown-tables.css")
 
     # Example: only load this CSS when using the "Bootstrap" theme (default):
-    elif theme_name == "bootstrap":
+    elif theme_name == "mkdocs": # Navigation for "bootstrap" theme (the default theme, but I have to use "mkdocs", not "bootstrap" as the name here)
         config.extra_css.append("stylesheets/bootstrap/spacing.css")
 
     # Example: only load this CSS when using the "ReadTheDocs" theme:

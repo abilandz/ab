@@ -1,8 +1,8 @@
 site_name: "PH8124: Scientific computing in high-energy physics"
 
 theme:
-  name: mkdocs
-#  name: material
+#  name: mkdocs
+  name: material
 #  name: readthedocs
 
 # common navigation settings for all themes:

@@ -2,7 +2,7 @@
 
 **Last update**: 20260904-2
 
-![](../Common_Figures/LinuxBashROOT_logos.png)
+![](./figures/LinuxBashROOT_logos.png)
 
 ### Table of Contents
 
@@ -240,7 +240,7 @@ help echo
 
 The printout on the screen could look something like:
 
-![](../Common_Figures/help_echo_0b.png)
+![](./figures/help_echo_0b.png)
 
 The command **help** gives a complete description of the built-in **Bash** commands (e.g. **echo**, **jobs**, **read**, etc.) or of **Bash** keywords (e.g. **for**, **if**, etc.).
 
@@ -252,7 +252,7 @@ man date
 
 The first page of a rather lengthy output could look like:
 
-![](../Common_Figures/man_date_0b.png)
+![](./figures/man_date_0b.png)
 
 In order to exit the _man pages_, press 'q'. You can scroll down the _man page_ line-by-line by pressing 'Enter', or page-by-page by pressing 'Spacebar'.
 

@@ -1,12 +1,7 @@
 # This config is used to configure layout only for "GitHub Pages". 
 # To configure all layouts for mkdocs themes, use mkdocs.yml.
 
-title: This is the title of websiteeee
-description: Some short description --
-# theme: minima
-
-#remote_theme: pages-themes/leap-day@v0.2.0
-#plugins:
-#- jekyll-remote-theme # add this line to the plugins list if you already have one
-
+title: My Project
+description: Project documentation
+theme: minima 
 show_downloads: false

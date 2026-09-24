@@ -12,15 +12,11 @@ def on_config(config):
             {"Lecture 2": "Lecture_2.md"},
             {"Lecture 3": "Lecture_3.md"},
             {"Lecture 4": "Lecture_4.md"},
-            {"Homeworks": "Homeworks.md"},
-#            {"Lecture 2": "SS2026/Lecture_2/Lecture_2.md"},
-#            {"Lecture 3": "SS2026/Lecture_3/Lecture_3.md"},
-#            {"Lecture 4": "SS2026/Lecture_4/Lecture_4.md"},
-#            {"Documentation": [
-#                "guide/installation.md",
-#                "guide/usage.md",
-#            ]},
-#            {"API": "api.md"},
+            {"Homeworks": [  
+                "Homeworks/Scoresheet.md",
+                "Homeworks/Homework_1.md",
+                "Homeworks/Homework_2.md",
+            ]},
         ]
 
     elif theme_name == "material": # Navigation for "Material" theme
@@ -29,8 +25,14 @@ def on_config(config):
             {"Lecture 1": "Lecture_1.md"},
             {"Lecture 2": "Lecture_2.md"},
             {"Lecture 3": "Lecture_3.md"},
-            {"Lecture 4": "Lecture_4.md"},
-            {"Homeworks": "Homeworks.md"},
+            {"Lecture 444": "Lecture_4.md"},
+            {"Homeworks": [  
+                "Homeworks/Scoresheet.md",
+                "Homeworks/Homework_1.md",
+                "Homeworks/Homework_2.md",
+            ]},
+
+#            {"Homeworks": "Homeworks.md"},
 #            {"User Guide": [
 #                "guide/installation.md",
 #                "guide/usage.md",
@@ -47,13 +49,11 @@ def on_config(config):
             {"Lecture 2": "Lecture_2.md"},
             {"Lecture 3": "Lecture_3.md"},
             {"Lecture 4": "Lecture_4.md"},
-            {"Homeworks": "Homeworks.md"},
-#            {"Getting Started": [
-#                "guide/installation.md",
-#                "guide/usage.md",
-#            ]},
-#            "api.md",
-#            "about.md",
+            {"Homeworks": [  
+                "Homeworks/Scoresheet.md",
+                "Homeworks/Homework_1.md",
+                "Homeworks/Homework_2.md",
+            ]},
         ]
 
     else: # Optional: fallback for unknown themes

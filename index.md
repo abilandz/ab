@@ -1,6 +1,6 @@
 # Introduction
 
-**Last update**: 1-6
+**Last update**: 1-7
 
 This webpage contains the lecturing material for the course PH8124, 'Scientific computing in high-energy physics', offered in SS2026.
 
@@ -20,5 +20,6 @@ For **ROOT**, the official documentation is used:
 
 * [Lecture 1: Trivia](src/Trivia.md)
 * [Lecture 2: Commands and variables](src/Lecture_2.md)
+* [Lecture 3: Commands and variables](src/Lecture_3.md)
+* [Lecture 4: Commands and variables](src/Lecture_4.md)
 * [Homework](src/Homeworks.md)
-

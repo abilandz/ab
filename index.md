@@ -1,6 +1,6 @@
-# Introduction
+### Introduction
 
-**Last update**: 1-7
+**Last update**: 1-8
 
 This webpage contains the lecturing material for the course PH8124, 'Scientific computing in high-energy physics', offered in SS2026.
 
@@ -16,10 +16,12 @@ For **ROOT**, the official documentation is used:
 
 * Users Guide (last update 2018, not maintained anymore): [html](https://root.cern.ch/root/htmldoc/guides/users-guide/ROOTUsersGuide.html) or [pdf](https://cernbox.cern.ch/index.php/s/N4k9AQ8LtCFWQIc) version
 
-# Lectures, homeworks and final project
+### Lectures, homeworks and final project
 
 * [Lecture 1: Trivia](src/Trivia.md)
 * [Lecture 2: Commands and variables](src/Lecture_2.md)
 * [Lecture 3: Commands and variables](src/Lecture_3.md)
 * [Lecture 4: Commands and variables](src/Lecture_4.md)
-* [Homework](src/Homeworks.md)
+* [Homeworks](src/Homeworks.md)
+    * [Homework 1: Using shell aliases as your simplest commands](src/Homework_1.md)
+    * [Homework 2: User-made executables as Linux/Bash commands](src/Homework_2.md)

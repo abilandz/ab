@@ -1,30 +1,31 @@
-site_name: This is a new name, is it really??
-nav:
-  - Home: index.md
-  - Lecture 1: SS2026/Lecture_1/Trivia.md
-  - Lecture 2: SS2026/Lecture_2/Lecture_2.md
-  - Lecture 3: SS2026/Lecture_3/Lecture_3.md
-  - Lecture 4: SS2026/Lecture_4/Lecture_4.md
-  - Homeworks: SS2026/Homeworks/Trivia.md
+site_name: "PH8124: Scientific computing in high-energy physics"
+
 theme:
 #  name: mkdocs
-  name: material
-#  name: readthedocs
-  analytics:
-    gtag: G-ABC123
-  shortcuts:
-    help: 191    # ?
-    next: 78     # n
-    previous: 80 # p
-    search: 83   # s
+#  name: material
+  name: readthedocs
 
-# here I mantain extra CSS but common for all themes:
+# common navigation settings for all themes:
+#nav:
+#  - Home: index.md
+
+# common extra CSS for all themes:
 extra_css:
   - stylesheets/extra.css
 
-# here I maintain extra CSS but conditional and specific for each theme:
+# specific settings for individually themes:
 hooks:
-  - docs/hooks/conditional_css.py
+  - docs/hooks/conditional_nav.py # navigation settings but conditional and specific for each theme
+  - docs/hooks/conditional_css.py # extra CSS but conditional and specific for each theme
+
+
+#  analytics:
+#    gtag: G-ABC123
+#  shortcuts:
+#    help: 191    # ?
+#    next: 78     # n
+#    previous: 80 # p
+#    search: 83   # s
 
 # support for math:
 markdown_extensions:

@@ -7,7 +7,7 @@ def on_config(config):
 
     if theme_name == "mkdocs": # Navigation for "bootstrap" theme (the default theme, but I have to use "mkdocs", not "bootstrap" as the name here)
         config.nav = [
-            {"Home": "index.md"}, # this file "index.md" must be in docs/
+            {"Introduction": "index.md"}, # this file "index.md" must be in docs/
             {"Lecture 1": "Lecture_1.md"}, 
             {"Lecture 2": "Lecture_2.md"},
             {"Lecture 3": "Lecture_3.md"},
@@ -25,7 +25,7 @@ def on_config(config):
 
     elif theme_name == "material": # Navigation for "Material" theme
         config.nav = [
-            {"Home": "index.md"}, # this file "index.md" must be in docs/
+            {"Introduction": "index.md"}, # this file "index.md" must be in docs/
             {"Lecture 1": "Lecture_1.md"},
             {"Lecture 2": "Lecture_2.md"},
             {"Lecture 3": "Lecture_3.md"},
@@ -42,7 +42,7 @@ def on_config(config):
 
     elif theme_name == "readthedocs": # Different structure for "ReadTheDocs" theme
         config.nav = [
-            {"Home": "index.md"}, # this file "index.md" must be in docs/
+            {"Introduction": "index.md"}, # this file "index.md" must be in docs/
             {"Lecture 1": "Lecture_1.md"},
             {"Lecture 2": "Lecture_2.md"},
             {"Lecture 3": "Lecture_3.md"},

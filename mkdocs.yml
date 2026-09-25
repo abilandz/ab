@@ -27,10 +27,12 @@ hooks:
 #    previous: 80 # p
 #    search: 83   # s
 
-# support for math:
+# support for math and code syntax highlihting:
 markdown_extensions:
-  - pymdownx.arithmatex:
+  - pymdownx.arithmatex: # math
       generic: true
+  - pymdownx.highlight # syntax highlighting
+  - pymdownx.superfences # syntax highlighting
 
 extra_javascript:
   - javascripts/mathjax.js

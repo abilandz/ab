@@ -4,12 +4,12 @@
 
 ![](./Figures/LinuxBashROOT_logos.png)
 
-### Table of Contents
+### Outline
 
 1. [Introduction](Lecture_2.md#introduction)
 2. [Shell environment](Lecture_2.md#environment)
-   * [Commands](Lecture_2.md#commands)
-   * [Variables](Lecture_2.md#variables)
+    * [Commandss](Lecture_2.md#commands)
+    * [Variables](Lecture_2.md#variables)
 3. [Editing a file in the terminal](Lecture_2.md#editing_file)
 4. [Your first **Bash** script](Lecture_2.md#first-script)
 5. [Special configuration files in **Bash**](Lecture_2.md#configuration-files)

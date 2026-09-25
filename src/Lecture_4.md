@@ -27,9 +27,28 @@ $$
 
 # Math Examples
 
-Inline: The quadratic formula is \( x = \frac{-b \pm \sqrt{b^2-4ac}}{2a} \).
+Inline 1: The quadratic formula is \( x = \frac{-b \pm \sqrt{b^2-4ac}}{2a} \).
 
-Inline 3: The quadratic formula is $ x = \frac{-b \pm \sqrt{b^2-4ac}}{2a} $.
+Inline 2: The quadratic formula is $x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$.
+
+Inline 3a: The quadratic formula is $$x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$$.
+
+Inline 3b: The quadratic formula is $$ x = \frac{-b \pm \sqrt{b^2-4ac}}{2a} $$.
+
+Inline 4: The quadratic formula is \\[ x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}\\ ].
+
+Inline 5: The quadratic formula is 
+
+\\[ 
+x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+\\]
+
+Inline 6: The quadratic formula is:
+
+$$
+x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+$$
+
 
 Also works with dollar signs (thanks to arithmatex): $E = mc^2$.
 

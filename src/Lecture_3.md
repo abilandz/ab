@@ -2,7 +2,7 @@
 
 **Last update**: 20260905-1
 
-![](../Common_Figures/LinuxBashROOT_logos.png)
+![](./Figures/LinuxBashROOT_logos.png)
 
 ### Table of Contents
 
@@ -361,7 +361,7 @@ Note that it makes a perfect sense to use `x` permission also for directories, b
 
 Finally, we clarify that the setting for each permission can be represented alternatively by a numerical value. The rule is established with the following simple table:
 
-![](../Common_Figures/permissions.png)
+![](./Figures/permissions.png)
 
 
 | permission |  r   |  w   |  x   |  -   |
@@ -375,7 +375,7 @@ For example, if you want to set only 'read' and 'write' permissions, you need to
 
 For convenience, all possibilities are documented in the table:
 
-![](../Common_Figures/permissionsAll.png)
+![](./Figures/permissionsAll.png)
 
 
 | value |       permission        | standard syntax |

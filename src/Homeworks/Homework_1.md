@@ -2,7 +2,7 @@
 
 **Last update:** 20260429-12
 
-![](<../Common_Figures/LinuxBashROOT_logos.png>)
+![](../Figures/LinuxBashROOT_logos.png)
 
 **Challenge #1**: Develop a **Bash** script named `timeZones.sh` which is used as
 

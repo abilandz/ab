@@ -1,7 +1,0 @@
-# This config is used to configure layout only for "GitHub Pages". 
-# To configure all layouts for mkdocs themes, use mkdocs.yml.
-
-title: My Project44
-description: Project documentation44
-theme: minima
-show_downloads: false

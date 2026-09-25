@@ -1,6 +1,14 @@
+---
+title: Welcome to the Documentation
+---
+
+# Welcome to the Documentation
+
+Your homepage content here...
+
 # Introduction
 
-**Last update**: 1-9
+**Last update**: 1-10
 
 This webpage contains the lecturing material for the course PH8124, 'Scientific computing in high-energy physics', offered in SS2026.
 

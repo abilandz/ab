@@ -29,6 +29,8 @@ $$
 
 Inline: The quadratic formula is \( x = \frac{-b \pm \sqrt{b^2-4ac}}{2a} \).
 
+Inline 3: The quadratic formula is $ x = \frac{-b \pm \sqrt{b^2-4ac}}{2a} $.
+
 Also works with dollar signs (thanks to arithmatex): $E = mc^2$.
 
 Display equation:
@@ -37,11 +39,11 @@ $$
 \int_{-\infty}^{\infty} e^{-x^2}\, dx = \sqrt{\pi}
 $$
 
-Or with brackets:
+Or with bracketssss:
 
-\[
+\\[
 \sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
-\]
+\\]
 
 
 The first case corresponds to the following syntax:

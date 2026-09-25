@@ -22,7 +22,8 @@ For **ROOT**, the official documentation is used:
 * [Lecture 2: Commands and variables](src/Lecture_2.md)
 * [Lecture 3: Commands and variables](src/Lecture_3.md)
 * [Lecture 4: Commands and variables](src/Lecture_4.md)
-* [Homeworks]
+* [Homeworks](src/Homeworks/Scoresheet.md)
     * [Scoresheet](src/Homeworks/Scoresheet.md)
     * [Homework 1: Using shell aliases as your simplest commands](src/Homeworks/Homework_1.md)
     * [Homework 2: User-made executables as Linux/Bash commands](src/Homeworks/Homework_2.md)
+

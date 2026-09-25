@@ -50,6 +50,29 @@ The first case corresponds to the following syntax:
 source someScript.sh # sourcing the script
 ```
 
+
+
+
+Inline math: $E = mc^2$ or \(E = mc^2\)
+
+Display math:
+
+$$
+\int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}
+$$
+
+or
+
+\[
+\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
+\]
+
+
+
+
+
+
+
 When executed this way, all lines in the script are read and executed by **Bash** one by one, just as if they were typed separately line by line in the terminal. The sourced script inherits the environment from the terminal (i.e. from the current shell), and can modify it globally. The exit status of the script must be specified with the keyword **return**. The script does not run in a separate process (more on this later).
 
 The second case corresponds to the following syntax:
